@@ -16,5 +16,5 @@ class Menu(Page):
 class Page2(Page):
     def __init__(self, w):
         Page.__init__(self)
-        label = tk.Label(self, text="Page 2")
+        label = tk.Label(self, text="Page 1")
         label.place(x=(w/2), y=25, anchor="center")
