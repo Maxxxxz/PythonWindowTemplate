@@ -1,13 +1,14 @@
+import sys
 import tkinter as tk
 from tkinter import filedialog
-import Pages
+import Modules.Pages as Pages
 
 WIDTH = 400
 HEIGHT = 400
 
 class Application(tk.Frame):
 
-    selectedFiles = []  #empty list of files
+    selectedFiles = []
 
     def __init__(self, master=None):
         master.title("Template")                                  #change title here
@@ -70,7 +71,12 @@ class Application(tk.Frame):
         # if isinstance(list[0], tk.Listbox):
         #     list[0].insert(tk.END, self.selectedFiles)
 
-root = tk.Tk()
-application = Application(root)
-application.pack()
-root.mainloop()
+def handleArgs():
+    pass
+
+if __name__ == "__main__":
+    handleArgs()
+    root = tk.Tk()
+    application = Application(root)
+    application.pack()
+    root.mainloop()
