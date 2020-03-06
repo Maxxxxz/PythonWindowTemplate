@@ -10,3 +10,13 @@ I intend on updating this with other bundled things as I think of more that I ma
     * Simple Pages that you can easily implement yourself.
 * Hotkeys
     * Swap to different pages using the control key combined with a number key. These are all customizable. 
+
+# To Do
+
+* Implement more potentially useful modules for quick startups
+* Make main `templateWindow.py` file more modular
+
+# Dependencies
+
+* Pages
+    * None
